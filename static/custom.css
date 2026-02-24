@@ -1,3 +1,7 @@
 :root {
   --accent: #BF40BF;
 }
+
+body {
+  font-family: "Helvetica";
+}
