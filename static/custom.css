@@ -2,25 +2,24 @@
   --accent: #BF40BF;
 }
 
-.young-serif-regular {
-  font-family: "Young Serif", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 body {
   font-family: "Helvetica";
 }
 
 a {
-    color: blue;
+  color: blue;
 
-    &:hover {
-	color: blue;
+  &:hover, &:visited {
+    color: blue;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    color: lightblue;
+
+    &:hover, &:visited {
+      color: lightblue;
     }
-    &:visited {
-	color: blue;
-    }
+  }
 }
 
 
