@@ -1,7 +1,16 @@
 :root {
-  --accent: #BF40BF;
+  --accent: #8D2BD4;
 }
 
 body {
   font-family: "Helvetica";
+}
+
+a:hover {
+  color: #BF40BF;
+}
+
+.title {
+  color: #382BD4;
+  font-style: italic;
 }
