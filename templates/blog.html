@@ -1,20 +1,20 @@
 {% extends "base.html" %}
 
 {% block title %}
-{{ section.title }}
+  {{ section.title }}
 {% endblock title%}
 
 {% block pagetitle %}
-{{ section.title }}
+  {{ section.title }}
 {% endblock pagetitle %}
 
 {% block content %}
-{{section.content | safe }}
-<ul>
-{% for page in section.pages %}
- <li><a href="{{ page.permalink | safe }}">{{ page.date }} — {{ page.title }}</a></li>
-{% endfor %}
-</ul>
+  {{section.content | safe }}
+  <ul>
+    {% for page in section.pages %}
+      <li><a href="{{ page.permalink | safe }}">{{ page.date }} — {{ page.title }}</a></li>
+    {% endfor %}
+  </ul>
 
-<p><a href="/atom.xml">Subscribe with RSS</a></p>
+  <p><a href="/atom.xml">Subscribe with RSS</a></p>
 {% endblock content %}
