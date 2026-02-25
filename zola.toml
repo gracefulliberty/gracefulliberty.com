@@ -9,6 +9,8 @@ build_search_index = false
 
 generate_feeds = true
 
+author = "Anna Liberty"
+
 [markdown]
 
 [markdown.highlighting]
