@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 
+{% block head_extras %}
+<meta name="fediverse:creator" content="@liberty@mathstodon.xyz">
+{% endblock head_extras %}
+
 {% block title %}
   {{ page.title }} — Anna Liberty
 {% endblock title %}

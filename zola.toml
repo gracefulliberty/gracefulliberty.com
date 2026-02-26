@@ -16,5 +16,8 @@ author = "Anna Liberty"
 [markdown.highlighting]
 theme = "catppuccin-mocha"
 
+error_on_missing_language = true
+
+
 [extra]
 # Put all your custom variables here
