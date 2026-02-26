@@ -20,9 +20,7 @@ No, I believe programmers and non-programmers alike have turned to LLMs because 
 
 But the fact that programming sucks doesn't make LLMs suck any less. The major problems with them persist. They still are environmentally destructive, fundamentally based on stolen code, produce inconsistent code, and are bad for your brain. Overall, LLMs make programming worse than it has been before, despite their promise. We deserve better than current programming paradigms, but we also deserve better than LLMs.
 
-Can we do better?
-
-## Yes We Can
+## We Can do Better
 
 We don't have to give up automation if we give up LLMs. We don't have to give up high levels of abstraction if we give up LLMs. We don't have to give up human-friendly interfaces if we give up LLMs.
 
@@ -100,7 +98,7 @@ They experimented with going even further with this idea, trying to [replace the
 
 [A former Eve contributor also talks about some of the complexities of the project](https://mech-lang.org/post/2025-01-09-programming-chatgpt/). Their post also expresses some of the same concerns about the limitations of LLMs I do here. 
 
-Unfortunately, the project was ended largely because it was [an ambitious VC-funded project that failed to monetize their product]( https://news.ycombinator.com/item?id=45559031), so we never had the opportunity to see their ideas come to fruition. Could it be replicated and expanded with a better financial model?
+Unfortunately, the project was ended largely because it was [an ambitious VC-funded project that failed to monetize their product](https://news.ycombinator.com/item?id=45559031), so we never had the opportunity to see their ideas come to fruition. Could it be replicated and expanded with a better financial model?
 
 It's possible natural language is fundamentally a leaky abstraction. But I believe it's worth another shot. The potential unlocked by giving the average person direct control over their computers deserves much greater attention. It deserves more attention than we're giving it. It deserves better than LLMs.
 
