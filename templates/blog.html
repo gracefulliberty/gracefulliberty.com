@@ -11,7 +11,7 @@
 {% block content %}
   {{section.content | safe }}
   <ul>
-    {% for page in section.pages %}
+    {% for page in section.pages | reverse %}
       <li><a href="{{ page.permalink | safe }}">{{ page.date }} — {{ page.title }}</a></li>
     {% endfor %}
   </ul>
