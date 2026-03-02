@@ -11,6 +11,12 @@ generate_feeds = true
 
 author = "Anna Liberty"
 
+taxonomies = [
+    { name = "tags", feed = true},
+]
+
+taxonomy_root = "articles/"
+
 [markdown]
 
 [markdown.highlighting]
