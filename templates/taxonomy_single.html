@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block pagetitle %}
+  #{{ term.name }}
+{% endblock pagetitle %}
+
+{% block content %}
+  <ul>
+  {% for page in term.pages %}
+    <li><a href="{{ page.permalink | safe }}">{{ page.date }} — {{ page.title }}</a></li>
+  {% endfor %}
+  </ul>
+{% endblock content %}

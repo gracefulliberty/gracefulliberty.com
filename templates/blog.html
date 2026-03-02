@@ -10,11 +10,16 @@
 
 {% block content %}
   {{section.content | safe }}
-  <ul>
-    {% for page in section.pages | reverse %}
-      <li><a href="{{ page.permalink | safe }}">{{ page.date }} — {{ page.title }}</a></li>
+  <section>
+    {% for page in section.pages %}
+      <article>
+	<h2><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h2>
+	<p>{{ page.date | safe }} — {% for tag in page.taxonomies.tags %} <a href="/articles/tags/{{ tag }}">#{{ tag }}</a> {% endfor %} </p>
+	<p>{{ page.summary | safe }}</p>
+	<p><a href="{{ page.permalink | safe }}">Read more</a></p>
+      </article>
     {% endfor %}
-  </ul>
+  </section>
 
   <p><a href="/atom.xml">Subscribe with RSS</a></p>
 {% endblock content %}

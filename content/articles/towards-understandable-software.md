@@ -2,11 +2,14 @@
 title = "Towards Understandable Software"
 subtitle = "Why programming sucks and how to fix it"
 date = 2026-02-25
-tags = ["computing"]
 draft = true
+[taxonomies]
+tags = ["computing"]
 +++
 
 Programming sucks. Code sucks. It's hard to read, hard to test, and hard to maintain. Only a handful of people can understand any particular software project. These are major problems. I'm here to explain how we can fix them.
+
+<!-- more -->
 
 ## LLMs aren't the Model
 
@@ -78,7 +81,7 @@ I don't believe this is the case. In my opinion, LLMs do not represent a layer o
 
 In say this because layers of abstraction are meant to be predictable and reliable. The intentions at a higher level of abstraction are supposed to be represented accurately and consistently at lower levels of abstraction. This is not the case with LLMs. Instead, LLMs stochastically interpret their prompts and predict intentions. They behave unpredictably. They automate the process of randomly approximating the output of a task. If LLMs are a layer of abstraction, they're an incredibly lossy one at best.
 
-Still, [Torvald's quote](https://lkml.org/lkml/2000/8/25/132) can still be inverted. Instead of thinking about code, we can think about "talk". Because what if "talk" and "code" weren't different at all?
+Still, [Torvalds's quote](https://lkml.org/lkml/2000/8/25/132) can still be inverted. Instead of thinking about code, we can think about "talk". Because what if "talk" and "code" weren't different at all?
 
 Humans have evolved a vast diversity of languages over the span of our existence. Our individual languages represent rich histories and are well-adapted for expression between humans. While optimized for interpersonal communication, they're not optimized for predictable communication with machines. That's why we've used code for this purpose so far. However, recent advances of Natural Language Processing (NLP) may be just what we need to create predictable pipelines from natural language to machine code.
 
@@ -86,7 +89,7 @@ This approach may not be able to express the same logical relationships as clear
 
 This could even allow us to merge documentation and code even further. We can literate programming and replace the code with natural language until only documentation remains. The same writing we use to talk to other humans about how the program works could be the same writing we use to communicate with the machine.
 
-This is meant to be deterministic. NLP can be used to parse semantics from the grammar wtihout the generative capacity of transformer models. That parsed grammar can be translated directly into an intermediate that is compiled according to platform requirements, just like any other programming language.
+This is meant to be deterministic. NLP can be used to parse semantics from the grammar without the generative capacity of transformer models. That parsed grammar can be translated directly into an intermediate that is compiled according to platform requirements, just like any other programming language.
 
 This deterministic quality means prompts become code reliably and consistently. This is fundamentally different than any LLM. It's a true layer of abstraction.
 
@@ -116,10 +119,10 @@ This world is possible. This world is necessary. We just need to build it.
 
 I believe in the importance of making understandable software. To this end, I'm working on projects that further this goal.
 
-Primarily, I develop [ReTangled](https://codeberg.org/liberty/retangled), an Entangled-compatable bi-directional tangler written in Rust. It's meant to extend literate programming as far as it can go while integrating it as tightly into existing toolchains as reasonable. As of writing, it's in the early stages of development. I welcome contributions!
+Primarily, I develop [ReTangled](https://codeberg.org/liberty/retangled), an Entangled-compatible bi-directional tangler written in Rust. It's meant to extend literate programming as far as it can go while integrating it as tightly into existing toolchains as reasonable. As of writing, it's in the early stages of development. I welcome contributions!
 
-And for each of the different ideas I explore lightly here (visual, literate, and natural language programming), I am going to write more completely on each and thoroughly elucidate on their potentials going forward.
+And for each of the different ideas I explore lightly here (visual, literate, and natural language programming), I am going to write more completely on each and thoroughly elucidate their potentials going forward.
 
-Further than that, though, I want to explore more of the problem space as a community. Specifically, I want us o pick up in Eve's footsteps, maybe taking a slightly different approach. I want us to create a highly-documented and accessible visual or natural language programming environment that anyone from new to expert programmers can find useful. That vision, while distant, is a worthy goal.
+Further than that, though, I want to explore more of the problem space as a community. Specifically, I want us to pick up in Eve's footsteps, maybe taking a slightly different approach. I want us to create a highly-documented and accessible visual or natural language programming environment that anyone from new to expert programmers can find useful. That vision, while distant, is a worthy goal.
 
 So please, join me! Let's start by better documenting our software and end with upending the very concept of programming.
