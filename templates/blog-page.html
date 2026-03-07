@@ -2,6 +2,11 @@
 
 {% block head_extras %}
 <meta name="fediverse:creator" content="@liberty@mathstodon.xyz">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{{ page.summary | safe | striptags }}">
+<meta property="og:image" content="/avatar.png">
+<meta name="author" content="Anna Liberty">
 {% endblock head_extras %}
 
 {% block title %}
