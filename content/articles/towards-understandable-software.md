@@ -45,6 +45,8 @@ Imagine this: instead of reading other people's code and then trying to parse th
 
 The best implementation of this I'm aware of is the [Entangled](https://entangled.github.io) bi-directional tangler. A tangler extracts code from your documentation and distributes it across the appropriate source code files. It's bidirectionality means you can use it to write code embedded in documentation, but then also edit that code normally which it then propagates back into the code blocks in the documentation. This allows programmers to use existing tooling for testing, refactoring, and code formatting without special support for literate programming.
 
+And it's fast. Tanglers add little overhead to your build system, especially compared to a compiler.
+
 We should embrace this approach and document the entirety of our software stack, from the firmware that boots our computers to the Web applications we use to connect with our communities. This would make every aspect of software more accessible to those who use and develop it.
 
 Go ahead and [shave the yak](https://en.wiktionary.org/wiki/yak_shaving), but also document it.
@@ -91,6 +93,8 @@ This could even allow us to merge documentation and code even further. We can li
 
 This is meant to be deterministic. NLP can be used to parse semantics from the grammar without the generative capacity of transformer models. That parsed grammar can be translated directly into an intermediate that is compiled according to platform requirements, just like any other programming language.
 
+Something like [Inform](https://en.wikipedia.org/wiki/Inform) but with more syntactical awareness and connected to a broader network of definitions.
+
 This deterministic quality means prompts become code reliably and consistently. This is fundamentally different than any LLM. It's a true layer of abstraction.
 
 ## We've Done This Before
@@ -104,6 +108,8 @@ They explored this idea further, even trying to replace their custom language wi
 [A former Eve contributor also talks about some of the complexities of the project](https://mech-lang.org/post/2025-01-09-programming-chatgpt/). Their post also expresses some of the same concerns about the limitations of LLMs I do here. 
 
 Unfortunately, the project was ended largely because it was [an ambitious VC-funded project that failed to monetize their product](https://news.ycombinator.com/item?id=45559031), so we never had the opportunity to see their ideas come to fruition. I believe it could replicated and expanded with a better financial model.
+
+This has also been done extensively by [Inform](https://ganelson.github.io/inform-website/), which is a declarative language for creating interactive fiction, but the concept can be applied much more broadly.
 
 It's possible natural language is fundamentally a leaky abstraction. But I believe it's worth another shot. The potential unlocked by giving the average person direct control over their computers deserves much greater attention. It deserves more attention than we're giving it. It deserves better than LLMs.
 
