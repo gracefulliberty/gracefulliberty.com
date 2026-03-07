@@ -1,8 +1,7 @@
 +++
 title = "Towards Understandable Software"
 subtitle = "Why programming sucks and how to fix it"
-date = 2026-02-25
-draft = true
+date = 2026-03-07
 [taxonomies]
 tags = ["computing"]
 +++
