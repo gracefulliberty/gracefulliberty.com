@@ -22,7 +22,7 @@ taxonomy_root = "articles/"
 [markdown.highlighting]
 theme = "catppuccin-mocha"
 
-error_on_missing_language = true
+error_on_missing_language = false
 
 
 [extra]
