@@ -6,6 +6,7 @@ I'm a physics and computer science student interested in making software more un
 
 - <a rel="me" href="https://mathstodon.xyz/@liberty">Mastodon</a>
 - [Email](mailto:liberty.817@proton.me)
+- [ORCiD](https://orcid.org/0009-0007-6763-586X)
 
 I create software. I also contribute to various projects. Check it out!
 
