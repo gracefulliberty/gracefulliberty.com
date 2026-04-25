@@ -32,6 +32,13 @@ a {
   font-weight: 400;
 }
 
+/* Blog post subtitle */
+.subtitle {
+    font-size: 1.3em;
+    color: #8D2BD4;
+    font-weight: bold;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: var(--accent);
 }
