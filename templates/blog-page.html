@@ -4,7 +4,7 @@
 <meta name="fediverse:creator" content="@liberty@mathstodon.xyz">
 <meta property="og:type" content="website">
 <meta property="og:title" content="{{ page.title }}">
-<meta property="og:description" content="{{ page.summary | safe | striptags }}">
+<meta property="og:description" content="{% if page.summary %} {{ page.summary | safe | striptags }} {% else %} {{ page.content | safe | striptags }} {% endif %}">
 <meta property="og:image" content="/avatar.png">
 <meta name="author" content="Anna Liberty">
 {% endblock head_extras %}

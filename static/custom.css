@@ -49,3 +49,11 @@ article h2 a {
 	color: var(--accent);
     }
 }
+
+.self {
+    max-width: 200px;
+    margin: 10px;
+    @media (min-width: 500px) {
+	float: right;
+    }
+}

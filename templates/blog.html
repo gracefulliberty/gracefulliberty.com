@@ -14,9 +14,16 @@
     {% for page in section.pages %}
       <article>
 	<h2><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h2>
-	<p>{{ page.date | safe }} — {% for tag in page.taxonomies.tags %} <a href="/articles/tags/{{ tag }}">#{{ tag }}</a> {% endfor %} </p>
+	{% if page.taxonomies %}
+	<p>{{ page.date | safe }} · {{ page.reading_time }} min · {% for tag in page.taxonomies.tags %} <a href="/articles/tags/{{ tag }}">#{{ tag }}</a> {% endfor %}</p>
+	<p><i></i></p>
+	{% endif %}
+	{% if page.summary %}
 	<p>{{ page.summary | safe }}</p>
 	<p><a href="{{ page.permalink | safe }}">Read more</a></p>
+	{% else %}
+	  {{ page.content | safe }}
+	{% endif %}
       </article>
     {% endfor %}
   </section>
