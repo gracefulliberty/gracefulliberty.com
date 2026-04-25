@@ -2,7 +2,7 @@
 title = "About Anna"
 +++
 
-<img alt="Picture of a dirty blonde woman with glasses. She is wearing a black mask and a gray shirt" src="/anna-photo.jpeg" class="self" />
+<img alt="Picture of a dirty blonde woman with glasses. She is wearing a black mask and a gray shirt" src="/anna-photo.png" class="self" />
 
 Hello! I'm Anna (she/her) also known as **graceful.liberty**.
 
